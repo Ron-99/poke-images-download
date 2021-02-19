@@ -1,0 +1,21 @@
+{
+  "name": "poke_image",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bin/server.js",
+  "scripts": {
+    "start": "node --trace-warnings bin/server.js ",
+    "dev": "nodemon bin/server.js --ignore __tests__"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "express": "^4.17.1",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
